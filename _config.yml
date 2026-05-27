@@ -1,7 +1,7 @@
 title: nicolenair
-description: Writing.
+description: Writing about software, data, AI, and the occasional existential tangent.
 url: "https://nicolenair.github.io"
-baseurl: "Writing about software, data, AI, and the occasional existential tangent"
+baseurl: ""
 author: Nicole
 
 permalink: /posts/:title/

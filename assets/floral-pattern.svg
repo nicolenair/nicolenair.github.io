@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+  <!-- Corner gold circles — combine with neighboring tiles when repeated -->
+  <circle cx="0"   cy="0"   r="6" fill="#f0b040"/>
+  <circle cx="140" cy="0"   r="6" fill="#f0b040"/>
+  <circle cx="0"   cy="140" r="6" fill="#f0b040"/>
+  <circle cx="140" cy="140" r="6" fill="#f0b040"/>
+
+  <!-- Three leaf pairs at 0°, 120°, 240° from center (drawn under the flower) -->
+  <g transform="translate(70,70) rotate(0)">
+    <ellipse cx="-8" cy="-50" rx="7" ry="16" fill="#5a9e6f" transform="rotate(-22,-8,-50)"/>
+    <ellipse cx="8"  cy="-50" rx="7" ry="16" fill="#5a9e6f" transform="rotate(22,8,-50)"/>
+  </g>
+  <g transform="translate(70,70) rotate(120)">
+    <ellipse cx="-8" cy="-50" rx="7" ry="16" fill="#5a9e6f" transform="rotate(-22,-8,-50)"/>
+    <ellipse cx="8"  cy="-50" rx="7" ry="16" fill="#5a9e6f" transform="rotate(22,8,-50)"/>
+  </g>
+  <g transform="translate(70,70) rotate(240)">
+    <ellipse cx="-8" cy="-50" rx="7" ry="16" fill="#5a9e6f" transform="rotate(-22,-8,-50)"/>
+    <ellipse cx="8"  cy="-50" rx="7" ry="16" fill="#5a9e6f" transform="rotate(22,8,-50)"/>
+  </g>
+
+  <!-- Six-petal flower at center — alternating blush and lavender petals -->
+  <g transform="translate(70,70)">
+    <ellipse cx="0" cy="-27" rx="10" ry="21" fill="#f0a0b8"/>
+    <ellipse cx="0" cy="-27" rx="10" ry="21" fill="#bfa0e0" transform="rotate(60)"/>
+    <ellipse cx="0" cy="-27" rx="10" ry="21" fill="#f0a0b8" transform="rotate(120)"/>
+    <ellipse cx="0" cy="-27" rx="10" ry="21" fill="#bfa0e0" transform="rotate(180)"/>
+    <ellipse cx="0" cy="-27" rx="10" ry="21" fill="#f0a0b8" transform="rotate(240)"/>
+    <ellipse cx="0" cy="-27" rx="10" ry="21" fill="#bfa0e0" transform="rotate(300)"/>
+    <!-- Gold center -->
+    <circle r="13" fill="#fcd070"/>
+    <circle r="7"  fill="#f09818"/>
+    <circle r="3"  fill="#fff8d8"/>
+  </g>
+</svg>
