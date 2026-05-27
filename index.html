@@ -1,0 +1,20 @@
+---
+layout: default
+title: Home
+---
+
+<div class="home-intro">
+  <h1>Nicole's Blog</h1>
+  <p>Writing about data engineering, distributed systems, and machine learning.</p>
+</div>
+
+<p class="posts-heading">Posts</p>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li class="post-item">
+    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>

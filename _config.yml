@@ -1,0 +1,16 @@
+title: nicolenair
+description: Writing about data engineering, distributed systems, and machine learning.
+url: "https://nicolenair.github.io"
+baseurl: ""
+author: Nicole
+
+permalink: /posts/:title/
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
