@@ -8,7 +8,7 @@
   --code-bg: #f5f0ee;
   --accent: #c06878;
   --accent-pale: #f8ecee;
-  --max-width: 740px;
+  --max-width: 960px;
 }
 
 * {
@@ -24,6 +24,9 @@ body {
   line-height: 1.75;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 body::before {
@@ -32,7 +35,7 @@ body::before {
   inset: 0;
   background-image: url('../floral-pattern.svg');
   background-repeat: repeat;
-  background-size: 140px 140px;
+  background-size: 300px 300px;
   opacity: 0.12;
   z-index: -1;
   pointer-events: none;
@@ -87,6 +90,7 @@ a {
 
 main {
   padding: 3.5rem 0 4rem;
+  flex: 1;
 }
 
 /* Home page */
